@@ -1,0 +1,39 @@
+.new_profile__controls {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: black;
+  }
+  
+  .new_profile__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: flex;
+    color: black;
+  }
+  
+  .new_profile__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 100%;
+
+  }
+  
+  .new_profile__actions {
+    text-align: left;
+  }
+
+  .new_profile__actions button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 25%;
+  }
